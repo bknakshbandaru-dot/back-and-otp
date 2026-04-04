@@ -15,7 +15,7 @@ app.post("/send-otp", async (req, res) => {
   try {
     await axios.get("https://www.fast2sms.com/dev/bulkV2", {
       params: {
-        authorization: "YOUR_API_KEY",
+        authorization: "                 authorization:   ''NIKGRzTdJ4i8plk6hwEQVWFBr0UO5YLycDXPgHv7s2tSoxZCM9CQPlyeKMYJjDr4gUH2qWzapO5fsvhb''",
         route: "q",
         message: `Your OTP is ${otp}`,
         language: "english",
