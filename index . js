@@ -18,7 +18,7 @@ app.post("/send-otp", async (req, res) => {
         authorization: "                 authorization:   ''NIKGRzTdJ4i8plk6hwEQVWFBr0UO5YLycDXPgHv7s2tSoxZCM9CQPlyeKMYJjDr4gUH2qWzapO5fsvhb''",
         route: "q",
         message: `Your OTP is ${otp}`,
-        language: "english",
+        variables_values: otp
         numbers: phone
       }
     });
